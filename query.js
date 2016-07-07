@@ -8,7 +8,7 @@ module.exports = {
     {latitude:32.087883,longitude:34.766235}, 
     {latitude:32.068538,longitude:34.761343}
   ],
-  minimumPublishDate: new Date('7/7/2016'),
+  minimumPublishDate: new Date('7/6/2016'),
   apartment: {
     FromPrice: 5500,
     ToPrice: 6500,

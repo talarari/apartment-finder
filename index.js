@@ -18,6 +18,7 @@ const getAdsFromPage = url => {
   fetch(url)
     .then(response => response.json())
     .then(json => {
+
       const results = ((json.Private || {}).Results || []).map(x => Object.assign(x, { source: 'private' }))
         .concat(((json.Trade || {}).Results || []).map(x => Object.assign(x, { source: 'agent' })));
 

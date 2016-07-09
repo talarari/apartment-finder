@@ -49,4 +49,4 @@ const fetchAds = () => {
 };
 
 fetchAds();
-setInterval(() => fetchAds(), 60*60*1000);
+setInterval(() => fetchAds(), 30*60*1000);
